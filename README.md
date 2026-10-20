@@ -71,7 +71,7 @@ The infrastructure decouples compute and data layers into discrete network bound
 ### Live Application Load Balancer Verification
 The Application Load Balancer health checks verify target readiness, while instance startup scripts validate private socket reachability across the peering link directly to the PostgreSQL instance.
 
-![ALB Live Verification Screenshot](asset/alb-proof.png)
+![ALB Live Verification Screenshot](asset/Sc1.png)
 
 *Live response displayed on the ALB endpoint:*
 ```text
