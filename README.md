@@ -66,12 +66,12 @@ The infrastructure decouples compute and data layers into discrete network bound
 ## 🖼️ Architecture & Live Verification
 
 ### 3D Infrastructure Topology
-![Architecture Diagram](assets/architecture.png)
+![Architecture Diagram](asset/architecture.png)
 
 ### Live Application Load Balancer Verification
 The Application Load Balancer health checks verify target readiness, while instance startup scripts validate private socket reachability across the peering link directly to the PostgreSQL instance.
 
-![ALB Live Verification Screenshot](assets/alb-proof.png)
+![ALB Live Verification Screenshot](asset/alb-proof.png)
 
 *Live response displayed on the ALB endpoint:*
 ```text
