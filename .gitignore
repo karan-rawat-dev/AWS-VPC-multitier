@@ -1,0 +1,16 @@
+# Terraform local state and history
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# CLI and sensitive scripts
+*.pem
+*.key
+deployment_summary.txt
